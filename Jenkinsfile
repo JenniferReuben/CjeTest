@@ -9,7 +9,6 @@ pipeline {
 
     stage('print more') {
       steps {
-        sleep 10
         echo 'buzzing now'
       }
     }
